@@ -9,7 +9,7 @@ import {
   CartesianGrid,
   Tooltip,
 } from "recharts";
-import "./dashboard.css";
+import "./styles/dashboard.css";
 
 function Dashboard() {
   const [dashboardData, setDashboardData] = useState(null);
