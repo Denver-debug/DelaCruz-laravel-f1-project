@@ -6,7 +6,7 @@ import "./App.css";
 // import Form from "./components/Form";
 // import List from "./components/List";
 // import Post from "./components/ui/Post";
-import Dashboard from "./component/ui/dashboard";
+import Dashboard from "./components/ui/dashboard";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import api from "../../api/axios";
+import { api_v1 } from "../../api/axios";
 import {
   ResponsiveContainer,
   BarChart,
@@ -20,7 +20,7 @@ function Dashboard() {
   useEffect(() => {
     const fetchDashboardData = async () => {
       try {
-        const response = await api.get("/product/queries");
+        const response = await api_v1.get("/product/queries");
 
         setDashboardData(response.data.data);
       } catch (err) {
