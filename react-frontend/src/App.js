@@ -5,7 +5,8 @@ import "./App.css";
 // import Counter from "./components/Counter";
 // import Form from "./components/Form";
 // import List from "./components/List";
-import Post from "./components/ui/Post";
+// import Post from "./components/ui/Post";
+import Dashboard from "./component/ui/dashboard";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Form />
       <Counter />
       <List /> */}
-      <Post />
+      {/* <Post /> */}
+      <Dashboard />
     </div>
   );
 }
